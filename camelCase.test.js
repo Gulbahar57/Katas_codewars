@@ -1,8 +1,4 @@
-String.prototype.camelCase=function() {
-
-    return this.split(' ').map(w => w.slice(0, 1).toUpperCase() + w.slice(1)).join('');
-}
-
+require("./camelCase.js") 
 
 describe ('camelCase function', () => {
   
@@ -21,6 +17,7 @@ describe ('camelCase function', () => {
     });
 
     test('devrait tester correctement "gulbaharyahsi"', () => {
-        expect("gulbaharyahsi".camelCase()).toBe("GulbaharYahsi")
+        expect("bonjourlemonde".camelCase()).toBe("BonjourLeMonde")
     })
 });
+
