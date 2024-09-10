@@ -1,4 +1,5 @@
 Katas JavaScript 🥋
+
 Bienvenue dans mon dépôt de katas en JavaScript ! 
 Ce projet contient une série de petits exercices (katas) que je réalise pour améliorer mes compétences en programmation et résolution de problèmes. Chaque kata est accompagné de tests unitaires pour garantir le bon fonctionnement du code.
 
