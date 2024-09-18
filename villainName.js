@@ -32,8 +32,8 @@ The returned value should be a string in the form of "First Name Last Name".
 
 For example, a birthday of November 18 would return "The Terrifying Teaspoon" */
 
-function getVillainName(birthday){
-    const m = ["Evil","Vile","Cruel","Trashy","Despicable","Embarrassing","Disreputable","Atrocious","Twirling","Orange","Terrifying","Awkward"];
+export function getVillainName(birthday){
+    const m = ["Evil","Vile","Cruel","Trashy","Despicable","Embarrassing","Disreputable","Atrocious","Twirling","Orange","Terrifying","Arkward"];
     const d = ["Mustache","Pickle","Hood Ornament","Raisin","Recycling Bin","Potato","Tomato","House Cat","Teaspoon","Laundry Basket"];
 
     return 'The' + ' ' + m[birthday.getMonth()] + ' ' + d[birthday.getDate() % 10]; 
